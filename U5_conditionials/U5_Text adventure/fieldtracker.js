@@ -161,7 +161,7 @@ let fieldTracking = true;
 while (fieldTracking){
     let selectOrCreateField = Number(prompt("Would you like to (1)create a field (2) choose a field, or (3) exit the program."));
 
-    if(selectOrCreateField == 1){
+    if(selectOrCreateField == 2){
 
     user.printFields();
     let fieldChoice = Number(prompt("Please type the index of the field you want to choose."));
@@ -199,7 +199,7 @@ while (fieldTracking){
             }
     }
 
- } else if (selectOrCreateField==2){
+ } else if (selectOrCreateField==1){
      let fieldName = prompt("What is the name of the field");
      user.addField(fieldName);
  } else {
