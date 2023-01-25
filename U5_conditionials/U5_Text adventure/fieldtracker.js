@@ -155,7 +155,7 @@ getName(){
 }
 
 let user = new User();
-user.addField("Corn");
+//user.addField("Corn");
 
 let fieldTracking = true;
 while (fieldTracking){
